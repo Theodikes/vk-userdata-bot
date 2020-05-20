@@ -1,0 +1,22 @@
+{
+  "name": "vk-userdata-bot",
+  "version": "1.0.0",
+  "description": "telegram bot that collects vk.com account information and sends it to telegram user",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "nodemon src/test"
+  },
+  "type": "module",
+  "author": "Theodike",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.0",
+    "telegraf": "^3.38.0",
+    "vk-io": "^4.0.0-rc.30"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
